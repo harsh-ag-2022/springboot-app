@@ -5,7 +5,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.5</version> <relativePath/> </parent>
+        <version>3.2.5</version>
+        <relativePath/> </parent>
     <groupId>com.bajajfinserv</groupId>
     <artifactId>java-qualifier</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -24,12 +25,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
